@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Devops Learning</h1>
+<h1 align="center"><s>Welcome to DevOps Learning</s></h1>
 <h1 align="center"> Happy Learning ..!</h1>
 <hr>
 <br>
