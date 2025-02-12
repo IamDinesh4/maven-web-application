@@ -12,7 +12,6 @@
 <h1 align="center">Welcome to Devops Learning</h1>
 <h1 align="center"> Happy Learning ..!</h1>
 
-<h2> Trainer Name: Balaji Reddy </h2>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
