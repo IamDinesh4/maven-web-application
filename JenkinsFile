@@ -9,7 +9,7 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
 // Below one Build Periodically
 properties([
         pipelineTriggers([
-            cron('H 2 * * *') // Runs daily at 2 AM
+            cron('* * * * *') // Runs daily at 2 AM
         ])
     ])
 
