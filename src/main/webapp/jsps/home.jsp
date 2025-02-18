@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center"><u>Welcome 2 DevOps AWS Learning</u></h1>
-<h1 align="center">Very Happy, are you )))))) </h1>
+<h1 align="center">i'm not Happy, if code gets success i'll be more happy )))))) </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
