@@ -1,5 +1,10 @@
 node
 {
+properties([
+    pipelineTriggers([
+        pollSCM('* * * * *') // Polls the SCM every minute
+    ])
+])
 //Maven path 	/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/3.9.9/bin
 
 def MavenPath=tool name: "3.9.9"
