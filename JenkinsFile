@@ -3,8 +3,16 @@ node{
 echo "Jenkins url is: ${env.JENKINS_URL}"
 echo "Node Name is: ${env.NODE_NAME}"
 echo "Job Name is: ${env.JOB_NAME}"
-
+/* Poll SCM
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
+*/
+// Below one Build Periodically
+properties([
+        pipelineTriggers([
+            cron('H 2 * * *') // Runs daily at 2 AM
+        ])
+    ])
+
 
 
 stage('git-clone')
