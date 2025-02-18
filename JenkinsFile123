@@ -1,0 +1,39 @@
+node
+{
+//Maven path 	/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/3.9.9/bin
+
+def MavenPath=tool name: "3.9.9"
+
+stage('git-clone')
+{
+git credentialsId: '8849c847-af96-4813-bd82-a8c51bece412', url: 'https://github.com/IamDinesh4/maven-web-application.git'
+}
+/*
+stage('build')
+{
+sh "${MavenPath}/bin/mvn clean package"
+}
+
+stage('SQ test')
+{
+sh "${MavenPath}/bin/mvn clean sonar:sonar"
+}
+
+stage('upload aritifact')
+{
+sh "${MavenPath}/bin/mvn clean deploy"
+}
+
+
+stage('Tomcat Deploy')
+{
+
+sshagent(['185adb73-5531-460f-b9a9-49e7b725004f']) 
+{
+ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ubuntu@44.201.118.110:/opt/apache-tomcat-9.0.98/webapps/"
+}
+
+}
+*/
+
+}
