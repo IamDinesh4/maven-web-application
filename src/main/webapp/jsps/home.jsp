@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center"><u>Welcome to DevOps Learning</u></h1>
-<h1 align="center"> Happy Learning ..!</h1>
+<h1 align="center"> Happy New Learning ..!</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
