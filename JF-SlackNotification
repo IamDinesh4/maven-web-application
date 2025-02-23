@@ -7,7 +7,7 @@ echo "Job Name is: ${env.JOB_NAME}"
     try {  
 stage('git-clone')
 {
-git credentialsId: '8849c847-af96-4813-bd82-a8c51bece412', url: 'https://github.com/IamDinesh4/maven-web-application.git'
+git branch: 'dev',  credentialsId: '8849c847-af96-4813-bd82-a8c51bece412', url: 'https://github.com/IamDinesh4/maven-web-application.git'
 }
 
 } catch (e) {
